@@ -7,16 +7,64 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+      
+    char codigo; 
+    char nome[50];
+    float populacao;
+    double pt;
+    float area;
+
+    printf("Diga o nome do codigo da sua cidade: \n");
+    scanf("%s\n", &codigo);
+    printf("Diga o nome da sua cidade: \n");
+    scanf("%s\n", &nome);
+    printf("Diga a populaçao da sua cidade \n:");
+    scanf("%f\n", &populacao);
+    printf("Diga quantos pontos turisticos tem sua cidade \n:");
+    scanf("%e\n", &pt);
+    printf("Diga a area da sua cidade \n:");
+    scanf("%f\n", &area);
+
+    printf("Diga o nome do codigo da sua cidade: \n");
+    scanf("%s\n", &codigo);
+    printf("Diga o nome da sua cidade: \n");
+    scanf("%s\n", &nome);
+    printf("Diga a populaçao da sua cidade \n:");
+    scanf("%f\n", &populacao);
+    printf("Diga quantos pontos turisticos tem sua cidade \n:");
+    scanf("%e\n", &pt);
+    printf("Diga a area da sua cidade \n:");
+    scanf("%f\n", &area);
+
+    printf("Diga o nome do codigo da sua cidade: \n");
+    scanf("%s\n", &codigo);
+    printf("Diga o nome da sua cidade: \n");
+    scanf("%s\n", &nome);
+    printf("Diga a populaçao da sua cidade \n:");
+    scanf("%f\n", &populacao);
+    printf("Diga quantos pontos turisticos tem sua cidade \n:");
+    scanf("%e\n", &pt);
+    printf("Diga a area da sua cidade \n:");
+    scanf("%f\n", &area);
+
+    printf("Diga o nome do codigo da sua cidade: \n");
+    scanf("%s\n", &codigo);
+    printf("Diga o nome da sua cidade: \n");
+    scanf("%s\n", &nome);
+    printf("Diga a populaçao da sua cidade \n:");
+    scanf("%f\n", &populacao);
+    printf("Diga quantos pontos turisticos tem sua cidade \n:");
+    scanf("%e\n", &pt);
+    printf("Diga a area da sua cidade \n:");
+    scanf("%f\n", &area);
+
+
+
+
+
+
+
+
 
     return 0;
 }
